@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@heroku-cli/command": "^8.2.10",
-    "@heroku-cli/plugin-pipelines": "^2.5.8",
+    "@heroku-cli/plugin-pipelines": "^7",
     "@heroku-cli/plugin-run-v5": "^7.24.0",
     "ansi-escapes": "3.2.0",
     "bluebird": "^3.5.3",

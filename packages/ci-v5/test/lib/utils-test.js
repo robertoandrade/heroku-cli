@@ -18,6 +18,7 @@ describe('Utils', function () {
         .reply(200, pipeline)
 
       const response = await Utils.getPipeline(context, new Heroku())
+      console.error(response)
       expect(response).to.deep.eq(Factory.pipeline)
       api.done()
     })
